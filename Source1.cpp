@@ -2,14 +2,6 @@
 #include <string>
 using namespace std;
 
-void function() {
-    char a = 'c';
-}
-
-void TestingWork() {
-    cout << "God damn "; 
-}
-
 void AreYouSure(string Answer){
     cout<<"Are you sure?"<<endl;
     cin>>Answer;
@@ -21,6 +13,9 @@ void AreYouSure(string Answer){
     }
 }
 
+void UsersCount(){
+    cout<<"how many users are use this program?\n";
+}
 int main() {
     string name;
     string Answer;

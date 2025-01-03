@@ -2,12 +2,9 @@
 #include <string>
 using namespace std;
 
-void function() {
-    char a = 'c';
-}
 
 void TestingWork() {
-    cout << "God damn "; 
+    cout << "So lets start The first question is...."; 
 }
 
 void AreYouSure(string Answer){
@@ -33,6 +30,7 @@ int main() {
 
     if (Answer == "yes") {
         cout << "good boy" << endl;
+        TestingWork();
     } else {
         AreYouSure(Answer);
     }

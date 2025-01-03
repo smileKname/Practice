@@ -9,13 +9,14 @@ void AreYouSure(string Answer){
         cout<<"bad boy(\n";
     }
     else{
-        cout<<"good boi\n";
+        cout<<"good boy, you`re soo good\n";
     }
 }
 
 void UsersCount(){
     cout<<"how many users are use this program?\n";
 }
+
 int main() {
     string name;
     string Answer;

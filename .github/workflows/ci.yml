@@ -1,0 +1,13 @@
+name: Мой первый CI/CD
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout репозитория
+        uses: actions/checkout@v3
+
+      - name: Запуск тестового скрипта
+        run: bash script.sh
